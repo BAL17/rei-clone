@@ -1,0 +1,35 @@
+#promo-message-banner {
+  background-color: #1f513f;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: -0.16px;
+  line-height: .8;
+  height: 45px;
+}
+
+.carouselDiv {
+  width: 568px;
+  text-align: center;
+  margin: 0 1.6rem;
+}
+
+.promoSpan {
+  color: white;
+  font-size: 15px;
+}
+
+.AnnoyingTag {
+  text-decoration: none;
+}
+
+.nextBtn,
+.previousBtn {
+  background: none;
+  border: none;
+}
+
+#nextBtnSVG,
+#previousBtnSVG {
+  cursor: pointer;
+}

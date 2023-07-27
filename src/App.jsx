@@ -1,18 +1,22 @@
-import { useState } from 'react'
-import { Provider } from './context/Context'
-import Test from './components/Test';
-
-
+import { useState } from "react";
+import Header from "./components/header/Header";
+import BodyContainer from "./components/body/BodyContainer";
+import Footer from "./components/footer/Footer";
+import { TotalProvider } from "./context/totalContext";
+import { ShippingProvider } from "./context/shippingContext";
 
 function App() {
-
-  const [state, setState] = useState("The beginning of something new");
-
   return (
     <div>
-      <Test />
+      <TotalProvider>
+        <Header />
+      </TotalProvider>
+      <ShippingProvider>
+        <BodyContainer />
+      </ShippingProvider>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
