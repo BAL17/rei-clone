@@ -11,7 +11,6 @@ node_modules
 dist-ssr
 *.local
 server/.env
-src
 db
 
 # Editor directories and files
