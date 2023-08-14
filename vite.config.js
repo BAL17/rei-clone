@@ -5,6 +5,9 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/rei-clone",
+ // vite.config.js
+  build: {
+    outDir: 'public'
+  },
   plugins: [react()],
 });
