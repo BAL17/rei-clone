@@ -1,4 +1,8 @@
 import "./RatingId.css";
+import Star from "/src/assets/Star.svg";
+import Starempty from "/src/assets/Starempty.svg";
+
+
 
 const RatingId = () => {
   return (
@@ -7,11 +11,11 @@ const RatingId = () => {
         <div className="product-rating">
           <a href="https://www.rei.com/product/186314/timbuk2-muttmover-luxe-pack#">
             <div className="star">
-              <img src="src\assets\Star.svg" alt="Icon Description"></img>
-              <img src="/src\assets\Star.svg" alt="Icon Description"></img>
-              <img src="src\assets\Star.svg" alt="Icon Description"></img>
-              <img src="src\assets\Star.svg" alt="Icon Description"></img>
-              <img src="src\assets\Starempty.svg" alt="Icon Description"></img>
+              <img src={Star} alt="Icon Description"></img>
+              <img src={Star} alt="Icon Description"></img>
+              <img src={Star} alt="Icon Description"></img>
+              <img src={Star} alt="Icon Description"></img>
+              <img src={Starempty} alt="Icon Description"></img>
               <span id="ratingSpan">
                 <a href="#">
                   <strong>4.1</strong> | 9 Reviews
